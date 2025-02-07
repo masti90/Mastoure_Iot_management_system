@@ -3,6 +3,7 @@
 
 class Device:
     def __init__(self, topic, mqtt_broker='localhost', port=1883):
+        
 
         self.topic = topic
         self.topic_list = self.topic.split('/')
