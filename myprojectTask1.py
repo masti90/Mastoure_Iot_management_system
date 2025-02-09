@@ -1,6 +1,7 @@
 #import paho.mqtt.client as mqtt
 #import RPi.GPIO as GPIO  # For controlling GPIO pins
 
+
 class Device:
     def __init__(self, topic, mqtt_broker='localhost', port=1883):
         
