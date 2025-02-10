@@ -1,4 +1,10 @@
+'''
 
+APM: salam arz shod
+
+
+
+'''
 
 from device import *
 class AdminPanel:
@@ -81,6 +87,18 @@ class AdminPanel:
 
 
     def get_status_in_group(self, group_name):
+        #bebinid aval baayd bere too oon group_names betamame device ha dastresi peyda kone
+        #ma yek tabe haminja darim bename  get_devices_in_groups(self, group_name): --> in bema yek list pas mide toosh koli device [d1,d2,d3,..]
+        our_devices=self.get_device_in_groups(group_name) 
+
+        #badesh vase done done devcie haye tooye in gorooh 
+        #har kodom yek class az Device hastan --> yek tabe daran bename show status
+
+        for i in our_devices:
+            a=i.show_status()
+            #hala print mikonim
+
+            print(f'The device {i.name} is {a}')
 #
 #
 #استاد لطفا راهنمایی کنید دیوانه شدم قاطی کردم این حل نمیشه
