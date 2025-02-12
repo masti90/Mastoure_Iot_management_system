@@ -2,9 +2,9 @@
 
 APM: salam arz shod
 baratoon comment gozashtam oon paeen too codetoon
-
-
 '''
+
+
 
 from device import *
 class AdminPanel:
