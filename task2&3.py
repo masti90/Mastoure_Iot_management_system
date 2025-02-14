@@ -2,6 +2,12 @@
 
 APM: salam arz shod
 baratoon comment gozashtam oon paeen too codetoon
+
+har soali dshtid inja beporsid:
+
+
+
+
 '''
 
 
@@ -125,6 +131,7 @@ class AdminPanel:
 
         '''
         pass
+
 
 if __name__ == '__main__':
 
